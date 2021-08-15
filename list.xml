@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_261" class="java.beans.XMLDecoder">
+ <object class="sprint1.List" id="List0">
+  <void class="sprint1.List" method="getField">
+   <string>listName</string>
+   <void method="set">
+    <object idref="List0"/>
+    <string>testList</string>
+   </void>
+  </void>
+ </object>
+<void class="sprint1.Card" method="getField">
+ <string>cardName</string>
+ <void method="set">
+  <object class="sprint1.Card" id="Card0"/>
+  <string>testCard3</string>
+ </void>
+</void>
+<void class="sprint1.List" id="Field0" method="getField">
+ <string>cards</string>
+ <void id="ArrayList0" method="get">
+  <object idref="List0"/>
+  <void method="add">
+   <object class="sprint1.Card" id="Card1">
+    <void class="sprint1.Card" method="getField">
+     <string>cardName</string>
+     <void method="set">
+      <object idref="Card1"/>
+      <string>testCard2</string>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object idref="Card0"/>
+  </void>
+  <void method="add">
+   <object class="sprint1.Card" id="Card2">
+    <void class="sprint1.Card" method="getField">
+     <string>cardName</string>
+     <void method="set">
+      <object idref="Card2"/>
+      <string>testCard4</string>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="sprint1.Card"/>
+  </void>
+ </void>
+</void>
+<void idref="ArrayList0"/>
+</java>

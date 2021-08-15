@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_261" class="java.beans.XMLDecoder">
+ <object class="sprint1.BoardReport" id="BoardReport0"/>
+<void class="sprint1.User" id="User0">
+ <void property="username">
+  <string>whatever</string>
+ </void>
+</void>
+<void class="sprint1.User" id="User1">
+ <void property="username">
+  <string>whatever</string>
+ </void>
+</void>
+<void class="sprint1.Board" method="getField">
+ <string>boardName</string>
+ <void method="set">
+  <object class="sprint1.Board" id="Board0">
+   <void class="sprint1.Board" method="getField">
+    <string>lists</string>
+    <void method="set">
+     <object idref="Board0"/>
+     <object class="java.util.ArrayList"/>
+    </void>
+   </void>
+   <void property="membersBoard">
+    <object class="java.util.ArrayList"/>
+   </void>
+   <void id="User2" property="owner">
+    <void property="password">
+     <string>tempPassword</string>
+    </void>
+    <void property="username">
+     <string>tempUserName</string>
+    </void>
+   </void>
+  </object>
+  <string>Example board</string>
+ </void>
+</void>
+<void class="sprint1.User" id="User3">
+ <void property="username">
+  <string>anotherone</string>
+ </void>
+ <void property="password">
+  <string>nopass</string>
+ </void>
+</void>
+<void class="java.util.ArrayList" id="ArrayList0">
+ <void method="add">
+  <object class="sprint1.List" id="List0">
+   <void class="sprint1.List" method="getField">
+    <string>listName</string>
+    <void method="set">
+     <object idref="List0"/>
+     <string>1</string>
+    </void>
+   </void>
+  </object>
+ </void>
+</void>
+<void class="sprint1.List" method="getField">
+ <string>listName</string>
+ <void method="set">
+  <object class="sprint1.List" id="List1"/>
+  <string>To do</string>
+ </void>
+</void>
+<void class="sprint1.BoardReport" id="Field0" method="getField">
+ <string>boards</string>
+ <void id="ArrayList1" method="get">
+  <object idref="BoardReport0"/>
+  <void id="Board1" index="0">
+   <void class="sprint1.Board" method="getField">
+    <string>boardName</string>
+    <void method="set">
+     <object idref="Board1"/>
+     <string>tboard</string>
+    </void>
+   </void>
+   <void property="membersBoard">
+    <void method="add">
+     <object class="sprint1.User" id="User4">
+      <void property="password">
+       <string>21019</string>
+      </void>
+      <void property="username">
+       <string>iamamember</string>
+      </void>
+     </object>
+    </void>
+   </void>
+   <void id="User5" property="owner">
+    <void property="username">
+     <string>iamuser</string>
+    </void>
+    <void property="password">
+     <string>5678</string>
+    </void>
+   </void>
+  </void>
+  <void method="add">
+   <object class="sprint1.Board" id="Board2">
+    <void class="sprint1.Board" method="getField">
+     <string>boardName</string>
+     <void method="set">
+      <object idref="Board2"/>
+      <string>newboard</string>
+     </void>
+    </void>
+    <void class="sprint1.Board" method="getField">
+     <string>lists</string>
+     <void method="set">
+      <object idref="Board2"/>
+      <object idref="ArrayList0"/>
+     </void>
+    </void>
+    <void property="membersBoard">
+     <object class="java.util.ArrayList"/>
+    </void>
+    <void property="owner">
+     <void property="password">
+      <string>nopass</string>
+     </void>
+     <void property="username">
+      <string>anotherone</string>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="sprint1.Board" id="Board3">
+    <void class="sprint1.Board" method="getField">
+     <string>boardName</string>
+     <void method="set">
+      <object idref="Board3"/>
+      <string>School work</string>
+     </void>
+    </void>
+    <void class="sprint1.Board" method="getField">
+     <string>lists</string>
+     <void method="set">
+      <object idref="Board3"/>
+      <object class="java.util.ArrayList">
+       <void method="add">
+        <object idref="List1"/>
+       </void>
+       <void method="add">
+        <object class="sprint1.List" id="List2">
+         <void class="sprint1.List" method="getField">
+          <string>listName</string>
+          <void method="set">
+           <object idref="List2"/>
+           <string>doing</string>
+          </void>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="sprint1.List" id="List3">
+         <void class="sprint1.List" method="getField">
+          <string>listName</string>
+          <void method="set">
+           <object idref="List3"/>
+           <string>done</string>
+          </void>
+         </void>
+        </object>
+       </void>
+      </object>
+     </void>
+    </void>
+    <void property="membersBoard">
+     <object class="java.util.ArrayList"/>
+    </void>
+    <void property="owner">
+     <void property="password">
+      <string>nopass</string>
+     </void>
+     <void property="username">
+      <string>anotherone</string>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object idref="Board0"/>
+  </void>
+ </void>
+</void>
+<void idref="ArrayList1"/>
+<void idref="Board1"/>
+<void idref="User5"/>
+<void class="sprint1.User" id="User6">
+ <void property="username">
+  <string>whatever</string>
+ </void>
+</void>
+<void class="sprint1.User" id="User7">
+ <void property="username">
+  <string>whatever</string>
+ </void>
+</void>
+<void class="sprint1.User" id="User8">
+ <void property="username">
+  <string>whatever</string>
+ </void>
+</void>
+<void class="sprint1.User" id="User9">
+ <void property="username">
+  <string>anotherone</string>
+ </void>
+ <void property="password">
+  <string>nopass</string>
+ </void>
+</void>
+<void class="sprint1.BoardReport" id="Field1" method="getField">
+ <string>users</string>
+ <void id="ArrayList2" method="get">
+  <object idref="BoardReport0"/>
+  <void method="add">
+   <object idref="User2"/>
+  </void>
+  <void method="add">
+   <object idref="User0"/>
+  </void>
+  <void method="add">
+   <object class="sprint1.User">
+    <void property="username">
+     <string>whatever</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object idref="User4"/>
+  </void>
+  <void method="add">
+   <object class="sprint1.User">
+    <void property="username">
+     <string>whatever</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="sprint1.User">
+    <void property="username">
+     <string>whatever</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object idref="User8"/>
+  </void>
+  <void method="add">
+   <object idref="User9"/>
+  </void>
+  <void method="add">
+   <object class="sprint1.User">
+    <void property="username">
+     <string>whatever</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object idref="User1"/>
+  </void>
+  <void method="add">
+   <object idref="User7"/>
+  </void>
+  <void method="add">
+   <object idref="User3"/>
+  </void>
+  <void method="add">
+   <object class="sprint1.User">
+    <void property="username">
+     <string>whatever</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="sprint1.User">
+    <void property="password">
+     <string>nopass</string>
+    </void>
+    <void property="username">
+     <string>anotherone</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object idref="User6"/>
+  </void>
+ </void>
+</void>
+<void idref="ArrayList2"/>
+<void class="sprint1.Card" id="Field2" method="getField">
+ <string>labels</string>
+ <void id="ArrayList3" method="get">
+  <object class="sprint1.Card" id="Card0">
+   <void class="sprint1.Card" method="getField">
+    <string>cardName</string>
+    <void method="set">
+     <object idref="Card0"/>
+     <string>1</string>
+    </void>
+   </void>
+  </object>
+  <void method="add">
+   <string></string>
+  </void>
+ </void>
+</void>
+<void idref="ArrayList3"/>
+<void class="sprint1.List" id="Field3" method="getField">
+ <string>cards</string>
+ <void id="ArrayList4" method="get">
+  <object idref="List0"/>
+  <void method="add">
+   <object idref="Card0"/>
+  </void>
+ </void>
+</void>
+<void idref="ArrayList4"/>
+</java>

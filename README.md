@@ -1,0 +1,1 @@
+Only moving cards left and right does not work. The test for sprint 4 is still in progression.

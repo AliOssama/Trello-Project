@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" style="-fx-background-color: #ffd1dc;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="views.HelpViewController">
+   <top>
+      <VBox prefHeight="29.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <MenuBar style="-fx-background-color: #ff77ff;">
+              <menus>
+                <Menu disable="true" mnemonicParsing="false" text="File">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="Close" />
+                  </items>
+                </Menu>
+                <Menu disable="true" mnemonicParsing="false" text="Help">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="About" />
+                  </items>
+                </Menu>
+              </menus>
+            </MenuBar>
+         </children></VBox>
+   </top>
+   <center>
+      <GridPane alignment="CENTER" BorderPane.alignment="CENTER">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="91.0" minWidth="0.0" prefWidth="67.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="600.0" minWidth="10.0" prefWidth="528.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="71.0" minWidth="0.0" prefWidth="5.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints maxHeight="50.0" minHeight="10.0" prefHeight="29.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="334.0" minHeight="10.0" prefHeight="319.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Button id="backToBoards" alignment="TOP_LEFT" mnemonicParsing="false" onAction="#goToBoardsPage" style="-fx-background-color: #ff77ff; -fx-background-radius: 10;" text="Boards" />
+            <Label alignment="BASELINE_CENTER" contentDisplay="CENTER" text="Help Page" GridPane.columnIndex="1" GridPane.halignment="CENTER">
+               <font>
+                  <Font name="Ink Free" size="24.0" />
+               </font></Label>
+            <ScrollPane GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <content>
+                  <VBox alignment="CENTER" prefWidth="500.0" spacing="10.0">
+                     <children>
+                        <Label text="How to see all you Boards" wrapText="true">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" text="Once you login, you will be taken to a page that displays all of the Boards you own and all of the Boards you are a member of. On all other pages, there will be a button in the top left labeled Boards, which will return you to your Boards page." wrapText="true" />
+                        <Label text="To add a Board" wrapText="true">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label text="On the Boards Page, there is a button at the bottom labeled Add Board. This will take you to a page where you can create a new Board." wrapText="true" />
+                        <Label text="To see all of the Lists and Cards for a Board" wrapText="true">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label text="Under each Board on the Board Page, there is a button labeled Go To Board, which will take you to that Board Page." wrapText="true" />
+                        <Label text="To edit a Board’s name" wrapText="true">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label text="Go to that Board’s Page. At the top, there will be a button labeled Edit Board Name, which will allow you to change the name of that Board." wrapText="true" />
+                        <Label text="To add a List" wrapText="true">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label text="At the bottom of the Board Page, there is a button labeled Add List which will take you to a page to enter a List Name." wrapText="true" />
+                        <Label text="To edit a List" wrapText="true">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label text="Under each List on the Board Page, there is a button labeled Edit List Name, which will allow you to change the name of that List. To move a List, there are two buttons to the left and right of a List’s name which allow you to move the List one spot to the left or right, respectively." wrapText="true" />
+                        <Label text="What is a Label?" wrapText="true">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label text="A Label is a color. When entering a Label, enter the name of the color." wrapText="true" />
+                        <Label text="To add a Card" wrapText="true">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label text="Under each List, there is a button labeled Add Card, which will take you to a page where you can enter a name for the Card and add Labels to the Card.el" wrapText="true" />
+                        <Label text="To edit a Card" wrapText="true">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label text="In each Card, there is a button labeled edit Card. This will take you to a page where you can change the name of the Card, add a Label, or remove a Label from the Card. To move a Card within the same List, there are buttons above and below the Card’s name which allow you to move the Card up or down one spot in the List, respectively. To move a Card to another List, there are buttons on the left and right of a Card’s name which allow you to move a Card to the last spot of the List on the left or right of the current List, respectively." wrapText="true" />
+                        <Label text="How to save all of your Boards" wrapText="true">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label text="In the Menu Bar at the top of each page, click on File, then Save. This will save all of your Boards." wrapText="true" />
+                     </children>
+                     <padding>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </padding>
+                  </VBox>
+               </content>
+            </ScrollPane>
+         </children>
+      </GridPane>
+   </center>
+</BorderPane>

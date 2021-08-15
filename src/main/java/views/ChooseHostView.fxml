@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane prefHeight="500.0" prefWidth="800.0" style="-fx-background-color: #ffd1dc;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="views.ChooseHostController">
+   <center>
+      <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label text="Welcome To Trello">
+               <font>
+                  <Font name="Ink Free" size="66.0" />
+               </font>
+            </Label>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Label prefHeight="35.0" prefWidth="404.0" text="Please type a server Name (Optional)">
+                     <font>
+                        <Font name="Ink Free" size="24.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="50.0">
+               <children>
+                  <TextField fx:id="serverNameLabel" prefHeight="25.0" prefWidth="250.0" style="-fx-background-radius: 10;" />
+               </children>
+            </HBox>
+            <Button id="submitButton" mnemonicParsing="false" onAction="#onClickNext" style="-fx-background-color: #ff77ff; -fx-background-radius: 10;" text="Next" />
+         </children>
+      </VBox>
+   </center>
+</BorderPane>

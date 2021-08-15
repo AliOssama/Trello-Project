@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_261" class="java.beans.XMLDecoder">
+ <object class="sprint1.Board" id="Board0">
+  <void property="boardName">
+   <string>Btest</string>
+  </void>
+  <void property="lists">
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="sprint1.List">
+      <void property="listName">
+       <string>hello</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="sprint1.List">
+      <void property="listName">
+       <string>world</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="sprint1.List">
+      <void property="listName">
+       <string>bye</string>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void property="membersBoard">
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="sprint1.User">
+      <void property="password">
+       <string>5678</string>
+      </void>
+      <void property="username">
+       <string>iamy</string>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void property="owner">
+   <void property="password">
+    <string>thisismypassword</string>
+   </void>
+   <void property="username">
+    <string>iamu</string>
+   </void>
+  </void>
+ </object>
+</java>
