@@ -1,1 +1,1 @@
-Only moving cards left and right does not work. The test for sprint 4 is still in progression.
+This project is developed from a website called Trello using JavaFX. It has automated testing and manual testing that were developed by Eclipse. To run manual testing, use Main.java. To run automated testing, use test.java or visitorTest.java.
