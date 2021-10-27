@@ -28,9 +28,15 @@ public class CardViewController
 
     @FXML
     void removeCard(ActionEvent event) {
-    	model.client.removeCard(board.boardName, list.listName, 
+    	if (model.client.user == null) {
+    		model.client.removeCard(board.boardName,list.listName,index);
+    		model.showBoard(board, model.vclient.user);
+    	}
+    	else {
+    		model.client.removeCard(board.boardName, list.listName, 
     			index);
-    	model.showBoards(model.client.user);
+    		model.showBoard(board, model.client.user);
+    	}
     }
     @FXML
     void editCard(ActionEvent event) {
