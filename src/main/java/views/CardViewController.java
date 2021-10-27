@@ -46,7 +46,7 @@ public class CardViewController
 
     @FXML
     void moveDown(ActionEvent event) {
-    	if(list.cards.size()!=1) {
+    	if(list.cards.size()!=1 && index!=list.cards.size()-1) {
     	model.client.moveCard(board.boardName, list.listName,
     			index+1,index);}
     	if(board.getOwner().getUsername().equals("tempUserName"))
